@@ -29,6 +29,7 @@ sudo pacman -S --needed --noconfirm \
   p7zip \
   wireless_tools \
   ttf-martian-mono-nerd \
+  emacs \
   alacritty
 
   #install dwm
@@ -66,6 +67,12 @@ sudo pacman -S --needed --noconfirm \
   cd zsh
   cp zshrc ~/.zshrc
   cd ..
+
+  # setup emacs
+  cd emacs
+  cp config.el /usr/share/emacs/31.1/etc/themes/
+  cp config.org ~/.emacs.d/
+  cp init.el ~/.emacs.d/
 
   #done
   echo Done installing. Also checkout the github for more information
