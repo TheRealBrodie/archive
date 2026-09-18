@@ -27,6 +27,7 @@ sudo pacman -S --needed --noconfirm \
   thunar-archive-plugin \
   engrampa \
   p7zip \
+  wireless_tools \
   ttf-martian-mono-nerd \
   alacritty
 
