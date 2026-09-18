@@ -30,6 +30,7 @@ sudo pacman -S --needed --noconfirm \
   wireless_tools \
   ttf-martian-mono-nerd \
   emacs \
+  qutebrowser \
   alacritty
 
   #install dwm
@@ -73,6 +74,13 @@ sudo pacman -S --needed --noconfirm \
   cp config.el /usr/share/emacs/31.1/etc/themes/
   cp config.org ~/.emacs.d/
   cp init.el ~/.emacs.d/
+  cd ..
+
+  #setup neovim bc yes
+  cp -r nvim ~/.config
+
+  #setup qutebrowser
+  cp -r qutebrowser ~/.config
 
   #done
   echo Done installing. Also checkout the github for more information
